@@ -59,9 +59,33 @@ const Glycocaylx = () => {
       <br />
 
       <h3>Supplements</h3>
-      <h5>Hyaluronic Acid</h5>
-      <p>Supplementing old mice for 10 weeks with dietary EG constituents (High Molecular Wieght hyaluronic acid, glucosamine sulfate and fucoidan, an antioxidant enzyme, superoxide dismutase) restored EG levels comparable to young mice.</p>
-      
+      <div className="child-text-left">
+        <h5>Hyaluronic Acid</h5>
+        <p>Supplementing old mice for 10 weeks with dietary EG constituents (High Molecular Wieght hyaluronic acid, glucosamine sulfate and fucoidan, an antioxidant enzyme, superoxide dismutase) restored EG levels comparable to young mice.</p>
+        <p>Dosage: 200mg?</p>
+        <h5>Glucosamine Sulfate</h5>
+        <p>Studies have shown glucosamine can be incorporated into the structure of the glycocalyx specifically contributing to the formation of heparan sulfate and hyaluronan.</p>
+        <p>Dosage: 1.5g?</p>
+        <h5>Fucoidan (fu-coy-dan)</h5>
+        <p>Fucoidan restores glycocalyx degradation, barrier disruption, inflammation and increased coagulation on endothelial surfaces in cultured COVID-19 patients microvascular cells.</p>
+        <p>Chronic Kidney Disease causes damage to the endothelial glycocalyx. A supplement containing glycocalyx components and fucoidan was fed to mice which resulted in both protection and rebuilding of the eGC in the context of enzymatic and CKD-induced eGC damge. The experiment suggested PI3K, ERK-MAPK and vesicular transport via the Golgi system, as well as the inhibition of heparanase are involved in the protective effect and that fucoidan may be an essentail component which protects the eGC in acute settings.</p>
+        <p>Dosage: 1g?</p>
+        <h5>Pycnogenol (pic-noj-enol)</h5>
+        <ul>
+          <li>Increases Hyaluronic Acid Synthase-1 and Collagen Type I</li>
+          <li>Activates GLUT1 lowering fasting glucose.</li>
+          <li>Similar to Metformin, imporves blood glucose, vascular reactivity, left ventricular hypertrophy, AMPK, GLUT4.</li>
+          <li>Crosses the blood brain barrier and protects against hypoxia (via LDH leakage, oxidative stress, cytokines) and LPS induced neuroinflammation of microglia.</li>
+          <li>Protects the vasculature by preventing thrombosis, activates eNOS and reduces overall vascular oxidative stress.</li>
+          <li>Inhibits MMP9 expressions</li>
+          <li>Improves Kidney Function by reducing blood pressure, reducing inflammation, and increasing blood flow. Protects the kidneys against high-glucose induced death.</li>
+          <li>Dosage: 50-300mg/day</li>
+        </ul>
+        <h5>Berberine</h5>
+        <p>ROS and MMP inhibition.</p>
+        <h5>Hydrocortisone</h5>
+        <p>Pervents mast cell degranulation and MMP release.</p>
+      </div>
     </Container>
   )
 }

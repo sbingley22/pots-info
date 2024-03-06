@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const MainNavbar = () => {
   return (
-    <Navbar expand="lg" style={{borderBottom: "solid 5px black", marginBottom: "15px"}}>
+    <Navbar expand="lg" style={{borderBottom: "solid 2px black", marginBottom: "15px"}}>
       <Navbar.Brand href="/">Home</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">

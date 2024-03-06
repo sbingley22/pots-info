@@ -16,3 +16,7 @@ h5 {
 .text-left {
   text-align: left;
 }
+
+.child-text-left * {
+  text-align: left;
+}
