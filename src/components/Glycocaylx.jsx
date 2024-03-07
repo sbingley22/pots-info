@@ -1,15 +1,20 @@
 import MainNavbar from "./MainNavbar"
 import img1 from "../assets/dysfunctionalGlycocalyx.jpg"
 import { Container } from 'react-bootstrap';
+import { useState } from "react";
+import Canvas3D from "./Canvas3D";
+import GlycocalyxModel from "./GlycocalyxModel";
 
 const Glycocaylx = () => {
+  const [view3dModel, setView3dModel] = useState(false)
+
   return (
     <Container fluid>
       <MainNavbar />
       <h1 style={{textAlign: "left"}}>Glycocaylx</h1>
       <br />
       <h3>Overview</h3>
-      <p>The glycocaylx is a sugary coat that lines the surface of blood vessels. It has several important functions:</p>
+      <p>The endothelial glycocaylx is a sugary coat that lines the surface of blood vessels. It has several important functions:</p>
       <ul>
         <li>
           <p><strong>Protects the endothelium: </strong> The endothelial cells are delicate and need to be protected from shear stress from blood flow, blood borne particles, and immune cells.</p>
@@ -25,6 +30,17 @@ const Glycocaylx = () => {
         </li>
       </ul>
       <br />
+
+      <h3>3D Viewer</h3>
+      {view3dModel ?
+        <div style={{width: "100%", height: "400px"}}>
+          <Canvas3D>
+            <GlycocalyxModel />
+          </Canvas3D>
+        </div>
+        :
+        <button onClick={()=>(setView3dModel(true))}>View 3d Model</button>
+      }
 
       <h3>Composition</h3>
       <ul>

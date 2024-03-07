@@ -1,4 +1,4 @@
-import { Navbar, Nav, NavLink } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from "react-router-dom"
 
 const MainNavbar = () => {
@@ -8,9 +8,8 @@ const MainNavbar = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Link to="/" className='nav-link'>Home</Link>
           <Link to="/glycocaylx" className='nav-link'>Glycocaylx</Link>
-          <Link to="/diapedesis" className='nav-link'>Diapedesis</Link>
+          <Link to="/immune-cells" className='nav-link'>Immune Cells</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

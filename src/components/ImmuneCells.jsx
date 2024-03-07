@@ -1,6 +1,6 @@
 import MainNavbar from "./MainNavbar"
 
-const Diapedesis = () => {
+const ImmuneCells = () => {
   return (
     <>
       <MainNavbar />
@@ -9,4 +9,4 @@ const Diapedesis = () => {
   )
 }
 
-export default Diapedesis
+export default ImmuneCells
